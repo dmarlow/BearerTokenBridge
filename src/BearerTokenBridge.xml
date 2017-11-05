@@ -31,5 +31,10 @@
             <param name="validationKey">The machineKey validationKey found in your web.config</param>
             <returns>A v3 AuthenticationTicket</returns>
         </member>
+        <member name="M:BearerTokenBridge.MachineKeyOwinBearerAuthTicketUnprotector.Convert(BearerTokenBridge.AuthenticationTicket,System.String)">
+            <summary>
+            Converts a v3 ticket to a v5.
+            </summary>
+        </member>
     </members>
 </doc>
