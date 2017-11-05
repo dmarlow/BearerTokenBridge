@@ -21,3 +21,6 @@ var newTicket = MachineKeyOwinBearerAuthTicketUnprotector.Convert(ticket, "Degre
 // in the HandleAuthenticateAsync method.
 var result = AuthenticateResult.Success(newTicket);
 ```
+
+
+Special thanks for [Umar Karimabadi](https://stackoverflow.com/users/7310452/umar-karimabadi) for doing all of the heavy lifting. For more information, see here: https://stackoverflow.com/questions/46546254/using-machine-keys-for-idataprotector-asp-net-core
