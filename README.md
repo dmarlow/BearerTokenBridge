@@ -1,3 +1,5 @@
+Please use this repo, it has a cleaner API interface and any future investments will be made there: https://github.com/dmarlow/AspNetTicketBridge
+
 # BearerTokenBridge
 Decrypts an OWIN OAuth Bearer token to be used in ASP.NET Core. 
 
